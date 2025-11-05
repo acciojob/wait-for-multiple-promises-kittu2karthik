@@ -2,13 +2,6 @@
 
 const tbody = document.querySelector('#output');
 
-const row = `
-		<tr>
-			<td colspan='2'>Loading...</td>
-		</tr>
-`
-tbody.insertAdjacentHTML('afterbegin', row);
-
 function randomTime() {
       return Math.floor(Math.random() * 3) + 1;
 }
